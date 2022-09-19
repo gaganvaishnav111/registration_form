@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 public class Main1 {
 
 	public static void main(String[] args) {
-		JFrame frame = new Tabbs();
+		JFrame frame = new Tabs1();
 		frame.setSize(800, 600);
 		frame.setTitle("students application");
 		frame.setLayout(null);
