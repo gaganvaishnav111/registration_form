@@ -1,0 +1,23 @@
+package sample;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
+
+public class Tabs1 extends JFrame {
+
+	Tabs1() {
+		JTabbedPane tp = new JTabbedPane();
+		JPanel registrationPanel = new RegistrationFrame();
+		JPanel loginPage = new LoginPage();
+		JPanel searchpage = new Searchpage();
+
+		tp.add("registration form", registrationPanel);
+		tp.add("login page", loginPage);
+		tp.add("Search Page", searchpage);
+		tp.setBounds(0, 0, 800, 600);
+		add(tp);
+
+	}
+
+}
